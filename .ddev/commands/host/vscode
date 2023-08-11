@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+## Description: Open VSCode with the current project
+## Usage: vscode
+## Example: "ddev vscode"
+
+ open -a Visual\ Studio\ Code.app ${DDEV_APPROOT}

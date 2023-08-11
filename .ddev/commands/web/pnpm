@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Description: Run pnpm command inside the web container
+## Usage: pnpm [flags] [args]
+## Example: "ddev pnpm install" (see https://pnpm.io/pnpm-cli)
+## ExecRaw: true
+##
+## NOTE: if your node project is in not in the root, you can add the path to your package.json file with `-C <path>`
+## eg. pnpm -C ./my-app "$@"
+
+pnpm "$@"
